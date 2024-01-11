@@ -8,9 +8,9 @@ body{
   height: 100%;
 }
 
-/* topContactOne */
+/* topContactOne   sectionOne-1  /// */
 .toContactBp{
-  background: #12486b;
+  background: #F6ECA9;
 }
 .topContact{
   width: 100%;
@@ -19,7 +19,7 @@ body{
 
 .topContactOne{
   padding: 20px 0;
-  background: #090;
+  background: rgba(0, 99, 153, 0.815);
   color: #ffffff;
   font-family: 'Montserrat';
   border-top-right-radius: 1000px;
@@ -50,8 +50,8 @@ body{
   display: flex;
   justify-content: space-around;
   padding: 20px 0;
-  background:#12486b;
-  color: #ffffff;
+  background:#F6ECA9;
+  /* color: #ffffff; */
   font-family: 'Montserrat';
   
 
@@ -66,7 +66,6 @@ body{
   margin-left: 10px;
 }
 
-
 .twoTwo{
   display: flex;
   justify-content: center;
@@ -78,9 +77,25 @@ body{
 }
 
 .line{
-  border-left: 2px solid #ffffff;
+  border-left: 2px solid #0f0f0f;
 }
 
+
+/* //// navigationBar  SectionTwo-2 ////  */
+.navbar{
+  background-color: #12486b;
+}
+
+.offcanvas-body{
+  background-color: #12486b;
+}
+
+.logo{
+width: 200px;
+}
+
+
+/* media queries */
 
 @media(max-width:768px){
   .topContactSection{
