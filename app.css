@@ -48,7 +48,7 @@ body{
 
 .topContactTwo{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   padding: 20px 0;
   background:#12486b;
   color: #ffffff;
@@ -79,4 +79,11 @@ body{
 
 .line{
   border-left: 2px solid #ffffff;
+}
+
+
+@media(max-width:768px){
+  .topContactSection{
+    display: none;
+  }
 }
