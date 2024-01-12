@@ -48,11 +48,12 @@ body{
 
 .topContactTwo{
   display: flex;
-  justify-content: space-around;
+  justify-content: end;
   padding: 20px 0;
   background:#F6ECA9;
   /* color: #ffffff; */
   font-family: 'Montserrat';
+  gap: 25px;
   
 
 }
@@ -70,10 +71,12 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+ 
 }
 
 .twoTwo h5{
   margin-left: 10px;
+  margin-right: 10px;
 }
 
 .line{
