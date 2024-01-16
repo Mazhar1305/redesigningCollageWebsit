@@ -1,107 +1,235 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-body{
+body {
   width: 100%;
   height: 100%;
 }
 
 /* topContactOne   sectionOne-1  /// */
-.toContactBp{
-  background: #F6ECA9;
+.toContactBp {
+  background: #f6eca9;
 }
-.topContact{
+.topContact {
   width: 100%;
   margin: auto;
 }
 
-.topContactOne{
+.topContactOne {
   padding: 20px 0;
   background: rgba(0, 99, 153, 0.815);
   color: #ffffff;
   font-family: 'Montserrat';
   border-top-right-radius: 1000px;
-
 }
-.topContactFlex{
+.topContactFlex {
   display: flex;
-  justify-content:center;
+  justify-content:space-evenly;
   align-items: center;
 }
 
-.topContactFlexOne h4{
+.topContactFlexOne h4 {
   outline: none;
   margin: 0;
   padding: 0;
   margin-right: 20px;
-
 }
 
-.fa-facebook{
+.faceBook{
   margin-right: 20px;
 }
 
-
 /* topContactTwo */
 
-.topContactTwo{
+.topContactTwo {
   display: flex;
   justify-content: end;
   padding: 20px 0;
-  background:#F6ECA9;
+  background: #f6eca9;
   /* color: #ffffff; */
   font-family: 'Montserrat';
   gap: 25px;
-  
-
 }
 
-.twoOne{
+.twoOne {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.twoOne h5{
+.twoOne h5 {
   margin-left: 10px;
 }
 
-.twoTwo{
+.twoTwo {
   display: flex;
   justify-content: center;
   align-items: center;
- 
 }
 
-.twoTwo h5{
+.twoTwo h5 {
   margin-left: 10px;
   margin-right: 10px;
 }
 
-.line{
+.line {
   border-left: 2px solid #0f0f0f;
 }
 
-
 /* //// navigationBar  SectionTwo-2 ////  */
-.navbar{
+.navbar {
   background-color: #12486b;
 }
 
-.offcanvas-body{
+.offcanvas-body {
   background-color: #12486b;
 }
 
-.logo{
-width: 200px;
+.logo {
+  width: 200px;
+}
+
+/* //// welcomeSection ////  */
+
+.welcomBackGroundImage {
+  background-image: linear-gradient(
+      rgba(4, 9, 30, 0.689),
+      rgba(4, 9, 30, 0.416)
+    ),
+    url(img/home2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: fit-content;
+}
+
+.welcomBackGroundImage {
+  padding-bottom: 19%;
+}
+
+.welcomeMain {
+  margin-top: 110px;
+}
+
+.welcomeMain {
+  width: 85%;
+
+}
+
+.welcomeMain h5 {
+  color: #ffffff;
+  font-family: 'Montserrat';
+  font-weight: 600;
+}
+
+.welcomeMain h2 {
+  color: #ffffff;
+  font-size: 4rem;
+  font-family: 'Montserrat';
+  margin-top: 10px;
+}
+
+.welcomeMain p {
+  color: #ffffff;
+  font-size: 1.3rem;
+  margin-top: 25px;
+}
+
+.discover {
+  background-color: #f6eca9;
+  padding: 10px 20px;
+}
+
+.discover a {
+  display: block;
+}
+
+.discover:hover {
+  background-color: #12486b;
+  color: #ffffff;
+}
+.contact {
+  padding: 10px 20px;
+}
+.contact:hover {
+  background-color: #12486b;
+  color: #ffffff;
+}
+
+.addmission-open{
+  background-color: #f6eca9;
+
+
+}
+
+.addmission-open:hover{
+  background-color: #f6eca9a8;
+
 }
 
 
 /* media queries */
 
-@media(max-width:768px){
-  .topContactSection{
+/* /mobile */
+
+@media (max-width: 600px) {
+  .welcomBackGroundImage {
+    height: 100vh;
+  }
+
+  .welcomeMain {
+    margin-top: 110px;
+  }
+
+  .welcomeMain h5 {
+    color: #ffffff;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 13px;
+  }
+
+  .welcomeMain h2 {
+    color: #ffffff;
+    font-size: 1.6rem;
+    font-family: 'Ubuntu';
+    /* font-weight: bold; */
+    margin-top: 10px;
+  }
+
+  .welcomeMain p {
+    color: #ffffff;
+    font-size: 1rem;
+    margin-top: 25px;
+    font-family: 'Ubuntu';
+  }
+}
+
+/* tab */
+@media (max-width: 991px) and (min-width: 601px) {
+  .welcomBackGroundImage {
+    padding-bottom: 30%;
+  }
+
+  .welcomeMain {
+    margin-top: 170px;
+  }
+
+  .welcomeMain h2 {
+    color: #ffffff;
+    font-size: 3rem;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    margin-top: 30px;
+    line-height: normal;
+  }
+
+
+}
+
+/* tab 2.0 */
+@media (max-width: 991px) {
+  .topContactSection {
     display: none;
   }
 }
