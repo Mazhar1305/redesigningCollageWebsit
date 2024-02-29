@@ -169,11 +169,64 @@ body {
 }
 
 
+/* ///////////////////// aboutSection /////////// */
+
+
+
+.aboutMain{
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+.aboutMain-1 img{
+  width: 100%;
+  font-weight:bold;
+}
+
+.aboutMain-2 h5{
+  color: #FFC436;
+  font-family: 'Ubuntu';
+}
+
+.aboutMain-2 h2{
+  font-size: 3rem;
+  font-family: 'Ubuntu';
+}
+
+.aboutP-1{
+ color: #0d79bc;
+ font-family: 'Ubuntu';
+}
+
+.aboutP-2{
+  font-family: 'Ubuntu';
+}
+
+.aboutButton{
+  padding: 12px 30px;
+  background-color: #12486b;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 5px;
+
+}
+
+  .aboutButton:hover{
+  background-color: #f6eca9;
+  transition: 0.5s;
+  color: #12486b;
+  font-family: 'Ubuntu';
+
+}
+
+
+
 /* media queries */
 
 /* /mobile */
 
 @media (max-width: 600px) {
+
+  
   .welcomBackGroundImage {
     height: 110vh;
     /* padding-bottom: 100vh; */
@@ -219,11 +272,29 @@ body {
     font-size: small;
     font-family: 'Ubuntu';
   }
+
+
+  /* /////////////// aboutSetion ///////// */
+  .aboutButton{
+    margin-top: 1rem;
+ 
+  }
+  .aboutMain-2 h5{
+    margin-top: 3rem;
+ 
+  }
+  .aboutMain-2 h2{
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+    font-family: 'Ubuntu';
+    border: none;
+  }
   
 }
 
 /* tab */
 @media (max-width: 991px) and (min-width: 601px) {
+
   .welcomBackGroundImage {
     padding-bottom: 30%;
   }
@@ -241,6 +312,21 @@ body {
     line-height: normal;
   }
 
+  /* /////////////// aboutSetion ///////// */
+  .aboutButton{
+    margin-top: 1rem;
+  }
+  .aboutMain-2 h5{
+    color: #FFC436;
+    margin-top: 3rem;
+ 
+  }
+  .aboutMain-2 h2{
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    font-family: 'Ubuntu';
+  }
+
 
 }
 
@@ -249,4 +335,15 @@ body {
   .topContactSection {
     display: none;
   }
+}
+
+
+
+@media (max-width: 1199px) and (min-width: 991px) {
+
+  .aboutMain-2 h2{
+    font-size: 1.5rem;
+    font-family: 'Ubuntu';
+  }
+  
 }
