@@ -219,7 +219,44 @@ body {
 }
 
 
+/* events ///////////////  */
+#ourEvents{
+  /* background: #f6eca9; */
 
+}
+.events{
+  margin-top: 3rem;
+ text-align: center;
+ font-family: 'Ubuntu';
+
+}
+
+.events h5{
+  color: #FFC436;
+  font-weight: bold;
+  
+}
+
+.events h2{
+
+  font-weight: bold;
+  font-size: 45px;
+  
+}
+/* 
+.eventFlex{
+  display: flex;
+
+} */
+
+
+/* //// */
+
+
+/* .eventList{
+  margin:auto ;
+  width: 50%;
+} */
 /* media queries */
 
 /* /mobile */
