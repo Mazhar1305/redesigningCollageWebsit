@@ -215,13 +215,17 @@ body {
   transition: 0.5s;
   color: #12486b;
   font-family: 'Ubuntu';
-
 }
 
 
 /* events ///////////////  */
 #ourEvents{
   /* background: #f6eca9; */
+  padding-top: 5px;
+  padding-bottom: 3rem;
+  background:#12476b77;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom:30px ;
 
 }
 .events{
@@ -235,14 +239,60 @@ body {
   color: #FFC436;
   font-weight: bold;
   
+  
 }
 
 .events h2{
 
   font-weight: bold;
   font-size: 45px;
+  margin-bottom: 4rem;
   
 }
+
+
+
+.zoom {
+  /* padding: 50px; */
+  position: relative;
+  z-index: 1;
+  padding: 10px;
+  transition: transform .2s; /* Animation */
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: 'Ubuntu';
+ 
+}
+
+.zoom:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  overflow: hidden;
+  color: #ffffff;
+}
+
+
+
+.backgroundColor:hover{
+  background:#12476b77;
+  /* color: #f6eca9; */
+}
+
+.myBtn{
+color: #12486b;
+  background: #f6eca9;
+}
+
+.myBtnTwo{
+  background-color: #12486b;
+  color: #f6eca9;
+}
+
+.myBtnTwo:hover{
+  color: #12486b;
+  background: #f6eca9;
+}
+
+
 /* 
 .eventFlex{
   display: flex;
@@ -326,6 +376,26 @@ body {
     font-family: 'Ubuntu';
     border: none;
   }
+
+
+     /* /// our events ////  */
+  .events h2{
+
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 3rem;
+
+    
+  }
+
+  .zoom{
+    margin-bottom: 2rem;
+  }
+
+  #ourEvents{
+    border-top-right-radius: 3rem ;
+    border-bottom-left-radius: 3rem ;
+  }
   
 }
 
@@ -363,6 +433,12 @@ body {
     margin-bottom: 1rem;
     font-family: 'Ubuntu';
   }
+
+  /* ///// our events  ///  */
+  .zoom{
+    margin-bottom: 2rem;
+  }
+  
 
 
 }
