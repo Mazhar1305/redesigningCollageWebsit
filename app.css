@@ -172,7 +172,6 @@ body {
 /* ///////////////////// aboutSection /////////// */
 
 
-
 .aboutMain{
   padding-top: 7rem;
   padding-bottom: 7rem;
@@ -225,7 +224,7 @@ body {
   padding-bottom: 3rem;
   background:#12476b77;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom:30px ;
+ 
 
 }
 .events{
@@ -293,20 +292,58 @@ color: #12486b;
 }
 
 
-/* 
-.eventFlex{
-  display: flex;
-
-} */
+/* //////get every /// */
 
 
-/* //// */
+
+#getEvery{
+  padding-top: 70px;
+  /* background: #f6eca95b; */
+}
+.getBtn{
+  border: 1px solid black;
+  padding: 15px;
+  border-radius: 4px;
+  width: 100%;
+
+}
 
 
-/* .eventList{
-  margin:auto ;
-  width: 50%;
-} */
+.getBtn:hover{
+  border: 1px solid black;
+}
+
+.getLeft{
+  font-size: x-large;
+  border: 1px solid black;
+  padding:5px 10px;
+  border-radius: 8px;
+  
+  position: absolute;
+  right:5px;
+  top: 10px;
+  
+}
+
+.gap-1{
+  position: relative;
+}
+
+.getAns h1{
+  font-family: 'Ubuntu';
+}
+
+.getContact form {
+  background:#12476ba8;
+padding: 50px 40px;
+border-radius: 15px;
+}
+
+.getContact form h1 {
+  color: white;
+  font-family: 'Ubuntu';
+
+  }
 /* media queries */
 
 /* /mobile */
@@ -392,10 +429,28 @@ color: #12486b;
     margin-bottom: 2rem;
   }
 
-  #ourEvents{
-    border-top-right-radius: 3rem ;
-    border-bottom-left-radius: 3rem ;
-  }
+ 
+
+  /* //// get every */
+
+  
+#getEvery{
+  padding-top: 10px;
+  /* background: #f6eca95b; */
+}
+
+.getAns{
+  margin-bottom: 50px;
+}
+.getAns h1{
+  font-weight: bold;
+}
+.getContact{
+  margin-bottom: 50px;
+}
+.getContact h1{
+  font-weight: bold;
+}
   
 }
 
@@ -439,7 +494,26 @@ color: #12486b;
     margin-bottom: 2rem;
   }
   
+ /* //// get every */
 
+  
+ #getEvery{
+  padding-top: 10px;
+  /* background: #f6eca95b; */
+}
+
+.getAns{
+  margin-bottom: 50px;
+}
+.getAns h1{
+  font-weight: bold;
+}
+.getContact{
+  margin-bottom: 50px;
+}
+.getContact h1{
+  font-weight: bold;
+}
 
 }
 
