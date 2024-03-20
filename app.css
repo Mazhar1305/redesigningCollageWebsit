@@ -272,10 +272,15 @@ body {
 
 
 .backgroundColor:hover{
-  background:#12476b77;
+  background:#12486b;
   /* color: #f6eca9; */
 }
 
+
+.backgroundColor:hover .myBtnTwo{
+  background-color: #f6eca9;
+  color: #12486b;
+}
 .myBtn{
 color: #12486b;
   background: #f6eca9;
@@ -299,6 +304,7 @@ color: #12486b;
 #getEvery{
   padding-top: 70px;
   /* background: #f6eca95b; */
+  padding-bottom: 50px;
 }
 .getBtn{
   border: 1px solid black;
@@ -334,7 +340,7 @@ color: #12486b;
 }
 
 .getContact form {
-  background:#12476ba8;
+  background:#12486b;
 padding: 50px 40px;
 border-radius: 15px;
 }
@@ -343,7 +349,72 @@ border-radius: 15px;
   color: white;
   font-family: 'Ubuntu';
 
-  }
+
+}
+
+/* /////// Testimonial */
+
+#Testimonial{
+  padding-top: 80px;
+  margin-bottom: 100px;
+  background:#12476b77;
+  padding-bottom: 50px;
+  color: #ffffff;
+}
+
+.testCard img {
+  
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  border-radius: 100%;
+  /* border-radius: 100px; */
+}
+
+.testCard hr{
+  width: 40px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.testCard{
+  
+  text-align: center;
+  border-radius: 5px;
+  background:#12486b;
+  padding: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.testCard:hover{
+  background: #12476b77;
+  transition: 0.5s;
+}
+
+.fa-quote-left{
+  font-size: xx-large;
+  color: #f6eca9;
+}
+
+.testHeadings{
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.testHeadings h5{
+  color: #FFC436;
+  font-weight: bold;
+  font-family: 'Ubuntu';
+}
+
+.testHeadings h1{
+  font-weight: bold;
+
+  color: #0f0f0f;
+  font-family: 'Ubuntu';
+}
+
 /* media queries */
 
 /* /mobile */
@@ -452,6 +523,10 @@ border-radius: 15px;
   font-weight: bold;
 }
   
+
+.testCard{
+  margin-bottom: 20px;
+}
 }
 
 /* tab */
@@ -515,6 +590,9 @@ border-radius: 15px;
   font-weight: bold;
 }
 
+.testCard{
+  margin-bottom: 10px;
+}
 }
 
 /* tab 2.0 */
