@@ -307,9 +307,9 @@ color: #12486b;
 
 
 #getEvery{
-  padding-top: 70px;
+  padding-top: 100px;
   /* background: #f6eca95b; */
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
 .getBtn{
   border: 1px solid black;
@@ -360,7 +360,7 @@ border-radius: 15px;
 /* /////// Testimonial */
 
 #Testimonial{
-  padding-top: 80px;
+  padding-top: 100px;
   /* margin-bottom: 100px; */
   background:#12476b77;
   padding-bottom: 100px;
@@ -425,7 +425,8 @@ border-radius: 15px;
 #alumniForm  {
   background:#12486b;
   /* padding: 50px; */
-  padding-top: 50px;
+  padding-top: 90px;
+  padding-bottom: 110px;
 }
 
 .alumniHeadings{
@@ -440,6 +441,53 @@ border-radius: 15px;
   color: #ffffff;
 
 }
+
+/* ///footer */
+
+#footer{
+  background:#ffc3366b;
+  padding-top: 30px;
+  padding-top: 50px;
+}
+
+
+.footerOne,.footerTwo h2 {
+color: #12486b;
+}
+
+.footerOne p{
+  color: #12476bb0;
+}
+.footerOne,.footerTwo{
+  color: #12486b;
+}
+
+.footerThree h2 {
+  color: #12486b;
+}
+
+
+.footerTwo a {
+  text-decoration: none;
+  color: #1c75b1;
+}
+.footerFour h2{
+  color: #12486b;
+  
+}
+.footerFour a{
+  text-decoration: none;
+  color: #1c75b1;
+}
+
+/* ///copy */
+
+.copy{
+  text-align: center;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
 /* media queries */
 
 /* /mobile */
@@ -566,6 +614,12 @@ border-radius: 15px;
 .alumniHeadings h1{
   margin-bottom: 20px;
 }
+
+/* ///footer */
+.footerOne,.footerTwo,.footerThree,.footerFour{
+  margin-bottom: 40px;
+}
+
 }
 
 /* tab */
@@ -628,10 +682,17 @@ border-radius: 15px;
 .getContact h1{
   font-weight: bold;
 }
-
+/* ////testimonials */
 .testCard{
   margin-bottom: 10px;
 }
+
+/* ///alumni */
+
+.footerOne,.footerTwo,.footerThree,.footerFour{
+  margin-bottom: 30px;
+}
+
 }
 
 /* tab 2.0 */
