@@ -453,7 +453,7 @@ border-radius: 15px;
 }
 
 
-.footerOne,.footerTwo h2 {
+.footerOne,.footerTwo h5 {
 color: #12486b;
 }
 
@@ -464,7 +464,7 @@ color: #12486b;
   color: #12486b;
 }
 
-.footerThree h2 {
+.footerThree h5 {
   color: #12486b;
 }
 
@@ -473,7 +473,7 @@ color: #12486b;
   text-decoration: none;
   color: #1c75b1;
 }
-.footerFour h2{
+.footerFour h5{
   color: #12486b;
   
 }
@@ -548,9 +548,52 @@ color: #12486b;
 }
 
 
+.more{
+  background: #12476b77;
+}
+
+.getEveryAbout{
+margin-top: 150px;
+margin-bottom: 150px;
+ 
+}
 
 
+.about-about{
+  padding-bottom:0px;
+}
 
+#video{
+  margin-top: 100px;
+}
+
+.aboutAlumni{
+  background: #f6eca9;
+}
+
+.about-tour{
+  background-color: #12476b77;
+}
+
+
+.alumniContent h2{
+  color: #12486b;
+}
+
+.tourContent h2{
+  color: #12486b;
+}
+
+.tourContent{
+  padding: 80px;
+  font-family: 'Ubuntu';
+}
+
+
+.alumniContent{
+  padding: 80px;
+  font-family: 'Ubuntu';
+}
 
 
 
@@ -734,6 +777,44 @@ font-family: 'Ubuntu';
   padding-left: 5px;
 
 }
+
+#video{
+  margin-top: 50px;
+}
+
+.tourContent h2{
+  font-size: 30px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.tourContent p{
+  margin-bottom: 40px;
+}
+.tourContent{
+  padding: 10px;
+  font-family: 'Ubuntu';
+}
+
+.iframee{
+  padding-bottom: 40px;
+}
+
+.aboutAlumni img{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.alumniContent{
+  padding: 10px;
+  font-family: 'Ubuntu';
+  padding-bottom: 40px;
+}
+.getEveryAbout{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 }
 
 /* tab */
@@ -851,6 +932,17 @@ font-family: 'Ubuntu';
   padding-left: 5px;
 }
 
+.tourContent{
+  padding: 10px;
+  font-family: 'Ubuntu';
+}
+
+
+.alumniContent{
+  padding: 10px;
+  font-family: 'Ubuntu';
+}
+
 }
 
 /* tab 2.0 */
@@ -912,6 +1004,18 @@ font-family: 'Ubuntu';
 .Combineflex .combineAbout{
   padding-left: 5px;
 }
+
+.tourContent{
+  padding: 50px;
+  font-family: 'Ubuntu';
+}
+
+
+.alumniContent{
+  padding: 40px;
+  font-family: 'Ubuntu';
+}
+
 
 
 }
