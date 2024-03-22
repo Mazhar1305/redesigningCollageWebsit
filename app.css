@@ -224,7 +224,7 @@ body {
   /* background: #f6eca9; */
   padding-top: 5px;
   padding-bottom: 3rem;
-  background:#12476b77;
+  background:#f6eca9;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  
 
@@ -364,7 +364,7 @@ border-radius: 15px;
 #Testimonial{
   padding-top: 100px;
   /* margin-bottom: 100px; */
-  background:#12476b77;
+  background:#f6eca9;
   padding-bottom: 100px;
   color: #ffffff;
 }
@@ -410,7 +410,7 @@ border-radius: 15px;
 }
 
 .testHeadings h5{
-  color: #FFC436;
+  color: #12486b;
   font-weight: bold;
   font-family: 'Ubuntu';
 }
@@ -450,6 +450,7 @@ border-radius: 15px;
   background:#ffc3366b;
   padding-top: 30px;
   padding-top: 50px;
+  padding-bottom: 100px;
 }
 
 
@@ -486,8 +487,10 @@ color: #12486b;
 
 .copy{
   text-align: center;
-  margin-top: 20px;
-  padding-bottom: 20px;
+  /* margin-top: 20px; */
+  padding: 20px 0px;
+  color: #f6eca9;
+  background-color: #12486b;
 }
 
 
@@ -572,7 +575,8 @@ margin-bottom: 150px;
 }
 
 .about-tour{
-  background-color: #12476b77;
+  background-color: #12486b;
+  color: #ffffff;
 }
 
 
@@ -581,7 +585,7 @@ margin-bottom: 150px;
 }
 
 .tourContent h2{
-  color: #12486b;
+  color: #f6eca9;
 }
 
 .tourContent{
@@ -595,6 +599,103 @@ margin-bottom: 150px;
   font-family: 'Ubuntu';
 }
 
+
+/* //////////// contact page ///////////   */
+
+.contactHeadings{
+  text-align: center;
+  margin-top: 100px;
+  font-family: 'Ubuntu';
+  font-weight: bolder;
+  
+}
+
+.contactHeadings h5{
+  color: #FFC436;
+}
+
+
+.contactHeadings h1{
+  font-size: 50px;
+}
+
+.contactRow div {
+  text-align: center;
+  font-family: 'Ubuntu';
+
+}
+
+
+.contactRow{
+  margin-top: 70px;
+  margin-bottom: 70px;
+  
+}
+
+.contactOne{
+  background: #12486b;
+  border-radius: 5px;
+  padding: 40px 0px;
+  color: #f6eca9;
+  
+
+}
+
+.contactOne:hover{
+  background-color: #f6eca9;
+  color: #0f0f0f;
+}
+
+.contactThree:hover{
+  background-color: #f6eca9;
+  color: #0f0f0f;
+}
+
+
+
+
+.contactTwo{
+  background: #f6eca9;
+  padding: 40px 0px;
+  border-radius: 5px;
+  
+}
+.contactThree{
+  background: #12486b;
+  padding: 40px 0px;
+  border-radius: 5px;
+  color: #f6eca9;
+}
+
+
+#inqureForm{
+  background-color:#12486b;
+  padding: 50px 0px;
+ 
+}
+
+.inqureFromH1{
+  text-align: center;
+  font-family: 'Ubuntu';
+  color: #f6eca9;
+  font-weight: bolder;
+  margin-bottom: 50px;
+  padding-top: 50px;
+}
+
+.inqureBtn{
+  margin-left: 565px;
+}
+
+
+.inqureBtnDiv{
+  margin-bottom: 50px;
+}
+
+
+.formHeadingbtn{
+  text-align: center;
+}
 
 
 
@@ -734,8 +835,15 @@ margin-bottom: 150px;
   margin-bottom: 40px;
 }
 
+#footer{
+  background:#ffc3366b;
+  padding-top: 30px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
 
-/* about /////////////////////////////////////////// */
+
+/* about page /////////////////////////////////////////// */
 #aboutBrand h1{
   text-align: center;
   position: absolute;
@@ -784,7 +892,7 @@ font-family: 'Ubuntu';
 
 .tourContent h2{
   font-size: 30px;
-  color: #fff;
+  
   font-weight: bold;
 }
 
@@ -814,6 +922,22 @@ font-family: 'Ubuntu';
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
+
+
+/* contact page  */
+
+ .contactTwo,.contactOne{
+  margin-bottom: 20px;
+}
+
+.inqureBtn{
+  margin-left:25%;
+}
+
+
+
+
 
 }
 
@@ -943,6 +1067,19 @@ font-family: 'Ubuntu';
   font-family: 'Ubuntu';
 }
 
+
+/* contact page  */
+
+.contactThree{
+  margin-top: 15px;
+}
+
+
+.inqureBtn{
+  margin-left:280px;
+}
+
+
 }
 
 /* tab 2.0 */
@@ -1016,6 +1153,13 @@ font-family: 'Ubuntu';
   font-family: 'Ubuntu';
 }
 
+
+
+/* contact page  */
+
+.inqureBtn{
+  margin-left:400px;
+}
 
 
 }
