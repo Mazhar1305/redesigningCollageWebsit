@@ -237,7 +237,7 @@ body {
 }
 
 .events h5{
-  color: #FFC436;
+  color: #12486b;
   font-weight: bold;
   
   
@@ -709,6 +709,8 @@ margin-bottom: 150px;
 .mechanical img{
   width: 100%;
   box-sizing: border-box;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 
@@ -734,7 +736,126 @@ margin-bottom: 150px;
 }
 
 
+/* courseDetails  */
 
+.detailsFlex{
+  display: flex;
+
+  /* gap: 20px; */
+  justify-content: space-around;
+  align-items: center;
+ 
+  /* font-size: 20px; */
+ 
+}
+
+
+.coursesDetailsH1{
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-family: 'Ubuntu';
+ 
+  
+}
+
+.courseFeatureH3 h3{
+padding-left: 20px;
+text-align: center;
+}
+/* .coursesDetailsRow{
+  margin-top: 100px;
+} */
+
+
+.coursesDetailsRow img{
+  width: 100%;
+}
+
+.courseFeatureH3{
+  text-align: left;
+  background: #12486b;
+  color: #f6eca9;
+  padding: 20px 0px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.coursesDetailsContent .detailsFlex {
+  border-bottom: 1px solid;
+  padding: 20px 0px;
+  padding-left: 20px;
+  font-family: 'Ubuntu';
+  
+}
+
+.coursesDetailsContent{
+  border-radius: 10px;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.enroll{
+  text-align: center;
+  padding-left: 0px;
+  padding: 20px 0px;
+  
+
+}
+.enroll a{
+  text-decoration: none;
+  padding: 10px 40px;
+  border-radius: 5px;
+  
+}
+
+
+.courseDetailsAddmission {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.lateralSpan{
+  font-weight: bold;
+  
+}
+
+
+.coursesDetailsRow{
+  margin-bottom: 50px;
+}
+
+table, td, th {  
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+th, td {
+  padding: 15px;
+}
+
+.headBgColor{
+  background: #12486b;
+  color: #f6eca9;
+}
+
+.getCourseDetailsAnsewer{
+margin-bottom: 100px;
+
+
+
+}
+
+.addmissionRow{
+  background: #f6eca9;
+  padding: 20px;
+}
 
 
 /* media queries */
@@ -978,6 +1099,30 @@ font-family: 'Ubuntu';
 }
 
 
+/* courseDetails page  */
+
+.coursesDetailsContent{
+  margin-top: 30px;
+}
+
+.lateralMain{
+  text-align: left;
+}
+
+.coursesDetailsRow{
+  margin-bottom: 50px;
+}
+
+
+.detailsFlex{
+  display: flex;
+
+  gap: 20px;
+  justify-content: space-around;
+  font-size: 16px;
+ 
+}
+
 }
 
 /* tab */
@@ -1116,6 +1261,22 @@ font-family: 'Ubuntu';
 
 .inqureBtn{
   margin-left:280px;
+}
+
+
+/* courseDetails page  */
+
+.coursesDetailsContent{
+  margin-top: 30px;
+}
+
+.detailsFlex{
+  display: flex;
+
+  gap: 20px;
+  justify-content: space-evenly;
+  /* font-size: 20px; */
+ 
 }
 
 
