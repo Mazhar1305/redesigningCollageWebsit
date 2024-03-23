@@ -698,6 +698,40 @@ margin-bottom: 150px;
 }
 
 
+/* courses  */
+
+.mechanical{
+  width: 100%;
+}
+
+
+
+.mechanical img{
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+.mechanicalContent a{
+  text-decoration: none;
+  color:#f6eca9;
+}
+
+/* .mechanical{
+  margin-top: 50px;
+} */
+
+.mechanicalContent{
+  background-color: #12486b;
+  color: #ffffff;
+  padding: 20px 30px;
+}
+
+
+.courseRow{
+  margin-bottom: 200px;
+  margin-top: 100px;
+}
 
 
 
@@ -936,7 +970,12 @@ font-family: 'Ubuntu';
 }
 
 
+/* coursepagw */
 
+.courseRow{
+  margin-bottom: 200px;
+  margin-top: 44px;
+}
 
 
 }
