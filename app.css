@@ -995,6 +995,67 @@ margin-bottom: 100px;
 }
 
 
+/* ///////////////// cse department page  */
+
+
+
+#cseHis{
+  margin-top: 100px;
+  background: #f6eca9;
+  padding: 20px;
+}
+.cseImg{
+  /* margin-top: 100px; */
+  /* margin-bottom: 100px; */
+  /* width: 80%; */
+ /* height: 80%; */
+  
+
+  
+}
+
+
+.cseH1Div {
+  margin-top:70px ;
+  margin-bottom: 20px;
+}
+
+.cseImg-Div{
+  width: 100%;
+  
+}
+
+
+.teacherRow .teacher {
+  background: #12486b;
+  padding-bottom: 60px;
+  padding-top: 30px;
+  /* margin-right: 5px; */
+  text-align: center;
+  color: #ffffff;
+}
+
+.icons{
+  color: #f6eca9;
+}
+#ourTeacher{
+  margin-top: 80px;
+}
+
+#ourTeacher h1{
+  font-family: 'Ubuntu';
+}
+
+.hodPhone{
+  background: #f6eca9;
+  text-align: center;
+  padding: 30px 0px;
+}
+
+/* .deptContactRow{
+  margin-top: 100px;
+} */
+
 
 
 /* media queries */
@@ -1262,6 +1323,34 @@ font-family: 'Ubuntu';
  
 }
 
+/* //////cse */
+
+
+.cseHish1{
+font-size: 20px;
+  
+}
+
+.mainP{
+  font-size: 14px;
+}
+
+.secondP{
+  font-size: small;
+}
+.cseImg{
+  margin-top:10px ;
+  margin-bottom: 20px;
+ 
+}
+
+.teacher{
+  margin-bottom: 10px;
+}
+
+.hodPhone{
+  margin-bottom: 20px;
+}
 }
 
 /* tab */
@@ -1415,6 +1504,22 @@ font-family: 'Ubuntu';
   gap: 20px;
   justify-content: space-evenly;
   /* font-size: 20px; */
+ 
+}
+
+/* cse page  */
+
+.teacher{
+  margin-bottom: 10px;
+}
+
+.hodPhone{
+  margin-bottom: 20px;
+}
+
+.cseImg{
+  margin-top:10px ;
+  margin-bottom: 20px;
  
 }
 
