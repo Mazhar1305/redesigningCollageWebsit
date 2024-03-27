@@ -7,10 +7,9 @@ body {
   width: 100%;
   height: 100%;
   box-sizing: border-box;
- 
 }
 
-.navbar{
+.navbar {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -32,7 +31,7 @@ body {
 }
 .topContactFlex {
   display: flex;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -43,7 +42,7 @@ body {
   margin-right: 20px;
 }
 
-.faceBook{
+.faceBook {
   margin-right: 20px;
 }
 
@@ -120,7 +119,6 @@ body {
 
 .welcomeMain {
   width: 85%;
-
 }
 
 .welcomeMain h5 {
@@ -163,218 +161,191 @@ body {
   color: #ffffff;
 }
 
-.addmission-open{
+.Admission-open {
   background-color: #f6eca9;
-
-
 }
 
-.addmission-open:hover{
+.Admission-open:hover {
   background-color: #f6eca9a8;
-
 }
-
 
 /* ///////////////////// aboutSection /////////// */
 
-
-.aboutMain{
+.aboutMain {
   padding-top: 7rem;
   padding-bottom: 7rem;
 }
-.aboutMain-1 img{
+.aboutMain-1 img {
   width: 100%;
-  font-weight:bold;
+  font-weight: bold;
 }
 
-.aboutMain-2 h5{
-  color: #FFC436;
+.aboutMain-2 h5 {
+  color: #ffc436;
   font-family: 'Ubuntu';
 }
 
-.aboutMain-2 h2{
+.aboutMain-2 h2 {
   font-size: 3rem;
   font-family: 'Ubuntu';
 }
 
-.aboutP-1{
- color: #0d79bc;
- font-family: 'Ubuntu';
-}
-
-.aboutP-2{
+.aboutP-1 {
+  color: #0d79bc;
   font-family: 'Ubuntu';
 }
 
-.aboutButton{
+.aboutP-2 {
+  font-family: 'Ubuntu';
+}
+
+.aboutButton {
   padding: 12px 30px;
   background-color: #12486b;
   text-decoration: none;
   color: #ffffff;
   border-radius: 5px;
-
 }
 
-  .aboutButton:hover{
+.aboutButton:hover {
   background-color: #f6eca9;
   transition: 0.5s;
   color: #12486b;
   font-family: 'Ubuntu';
 }
 
-
 /* events ///////////////  */
-#ourEvents{
+#ourEvents {
   /* background: #f6eca9; */
   padding-top: 5px;
   padding-bottom: 3rem;
-  background:#f6eca9;
+  background: #f6eca9;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
- 
-
 }
-.events{
+.events {
   margin-top: 3rem;
- text-align: center;
- font-family: 'Ubuntu';
-
+  text-align: center;
+  font-family: 'Ubuntu';
 }
 
-.events h5{
+.events h5 {
   color: #12486b;
   font-weight: bold;
-  
-  
 }
 
-.events h2{
-
+.events h2 {
   font-weight: bold;
   font-size: 45px;
   margin-bottom: 4rem;
-  
 }
-
-
 
 .zoom {
   /* padding: 50px; */
   position: relative;
   z-index: 1;
   padding: 10px;
-  transition: transform .2s; /* Animation */
+  transition: transform 0.2s; /* Animation */
 
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   font-family: 'Ubuntu';
- 
 }
 
 .zoom:hover {
-  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(
+    1.1
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   overflow: hidden;
   color: #ffffff;
 }
 
-
-
-.backgroundColor:hover{
-  background:#12486b;
+.backgroundColor:hover {
+  background: #12486b;
   /* color: #f6eca9; */
 }
 
-
-.backgroundColor:hover .myBtnTwo{
+.backgroundColor:hover .myBtnTwo {
   background-color: #f6eca9;
   color: #12486b;
 }
-.myBtn{
-color: #12486b;
+.myBtn {
+  color: #12486b;
   background: #f6eca9;
 }
 
-.myBtn:hover{
-  color: #fff;;
+.myBtn:hover {
+  color: #fff;
   border: 1px solid #f6eca9;
 }
 
-.myBtnTwo{
+.myBtnTwo {
   background-color: #12486b;
   color: #f6eca9;
 }
 
-.myBtnTwo:hover{
+.myBtnTwo:hover {
   color: #12486b;
   background: #f6eca9;
 }
 
-
 /* //////get every /// */
 
-
-
-#getEvery{
+#getEvery {
   padding-top: 100px;
   /* background: #f6eca95b; */
   padding-bottom: 100px;
 }
-.getBtn{
+.getBtn {
   border: 1px solid black;
   padding: 15px;
   border-radius: 4px;
   width: 100%;
-
 }
 
-
-.getBtn:hover{
+.getBtn:hover {
   border: 1px solid black;
 }
 
-.getLeft{
+.getLeft {
   font-size: x-large;
   border: 1px solid black;
-  padding:5px 10px;
+  padding: 5px 10px;
   border-radius: 8px;
-  
+
   position: absolute;
-  right:5px;
+  right: 5px;
   top: 10px;
-  
 }
 
-.gap-1{
+.gap-1 {
   position: relative;
 }
 
-.getAns h1{
+.getAns h1 {
   font-family: 'Ubuntu';
 }
 
 .getContact form {
-  background:#12486b;
-padding: 50px 40px;
-border-radius: 15px;
+  background: #12486b;
+  padding: 50px 40px;
+  border-radius: 15px;
 }
 
 .getContact form h1 {
   color: white;
   font-family: 'Ubuntu';
-
-
 }
 
 /* /////// Testimonial */
 
-#Testimonial{
+#Testimonial {
   padding-top: 100px;
   /* margin-bottom: 100px; */
-  background:#f6eca9;
+  background: #f6eca9;
   padding-bottom: 100px;
   color: #ffffff;
 }
 
 .testCard img {
-  
   width: 60px;
   height: 60px;
   margin: auto;
@@ -382,44 +353,42 @@ border-radius: 15px;
   /* border-radius: 100px; */
 }
 
-.testCard hr{
+.testCard hr {
   width: 40px;
   margin: auto;
   margin-bottom: 10px;
 }
 
-.testCard{
-  
+.testCard {
   text-align: center;
   border-radius: 5px;
-  background:#12486b;
+  background: #12486b;
   padding: 30px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
 }
 
-.testCard:hover{
+.testCard:hover {
   background: #12476b77;
   transition: 0.5s;
 }
 
-.fa-quote-left{
+.fa-quote-left {
   font-size: xx-large;
   color: #f6eca9;
 }
 
-.testHeadings{
+.testHeadings {
   text-align: center;
   padding-bottom: 30px;
 }
 
-.testHeadings h5{
+.testHeadings h5 {
   color: #12486b;
   font-weight: bold;
   font-family: 'Ubuntu';
 }
 
-.testHeadings h1{
+.testHeadings h1 {
   font-weight: bold;
 
   color: #0f0f0f;
@@ -428,44 +397,43 @@ border-radius: 15px;
 
 /* alumni  */
 
-#alumniForm  {
-  background:#12486b;
+#alumniForm {
+  background: #12486b;
   /* padding: 50px; */
   padding-top: 90px;
   padding-bottom: 110px;
 }
 
-.alumniHeadings{
+.alumniHeadings {
   text-align: center;
   margin-bottom: 60px;
-
 }
-.alumniHeadings h1{
-  color: #FFC436;
+.alumniHeadings h1 {
+  color: #ffc436;
 }
-.alumniHeadings h5{
+.alumniHeadings h5 {
   color: #ffffff;
-
 }
 
 /* ///footer */
 
-#footer{
-  background:#ffc3366b;
+#footer {
+  background: #ffc3366b;
   padding-top: 30px;
   padding-top: 50px;
   padding-bottom: 100px;
 }
 
-
-.footerOne,.footerTwo h5 {
-color: #12486b;
+.footerOne,
+.footerTwo h5 {
+  color: #12486b;
 }
 
-.footerOne p{
+.footerOne p {
   color: #12476bb0;
 }
-.footerOne,.footerTwo{
+.footerOne,
+.footerTwo {
   color: #12486b;
 }
 
@@ -473,23 +441,21 @@ color: #12486b;
   color: #12486b;
 }
 
-
 .footerTwo a {
   text-decoration: none;
   color: #1c75b1;
 }
-.footerFour h5{
+.footerFour h5 {
   color: #12486b;
-  
 }
-.footerFour a{
+.footerFour a {
   text-decoration: none;
   color: #1c75b1;
 }
 
 /* ///copy */
 
-.copy{
+.copy {
   text-align: center;
   /* margin-top: 20px; */
   padding: 20px 0px;
@@ -497,10 +463,9 @@ color: #12486b;
   background-color: #12486b;
 }
 
-
 /* /////////////////////////// aboutPage ///////////////////////////////  */
 
-#aboutBrand{
+#aboutBrand {
   background-image: url(img/brand-bg.png);
   /* height: 60vh; */
   background-size: cover;
@@ -509,7 +474,7 @@ color: #12486b;
   position: relative;
 }
 
-#aboutBrand h1{
+#aboutBrand h1 {
   text-align: center;
   position: absolute;
   top: 200px;
@@ -520,7 +485,7 @@ color: #12486b;
   font-weight: bold;
 }
 
-.Combineflex{
+.Combineflex {
   display: flex;
   width: 155px;
   justify-content: space-between;
@@ -532,153 +497,133 @@ color: #12486b;
   top: 430px;
 }
 
-.Combineflex .combineHome{
+.Combineflex .combineHome {
   border-right: 1px solid black;
   padding-right: 5px;
 }
 
-
-.Combineflex .combineAbout{
+.Combineflex .combineAbout {
   padding-left: 5px;
 }
-.combineHome a{
+.combineHome a {
   text-decoration: none;
   color: #1b6ea6;
 }
 
-.combineAbout h5{
+.combineAbout h5 {
   font-family: 'Ubuntu';
 }
 
-.combineHome h5{
+.combineHome h5 {
   font-family: 'Ubuntu';
 }
 
-
-.more{
+.more {
   background: #12476b77;
 }
 
-.getEveryAbout{
-margin-top: 150px;
-margin-bottom: 150px;
- 
+.getEveryAbout {
+  margin-top: 150px;
+  margin-bottom: 150px;
 }
 
-
-.about-about{
-  padding-bottom:0px;
+.about-about {
+  padding-bottom: 0px;
 }
 
-#video{
+#video {
   margin-top: 100px;
 }
 
-.aboutAlumni{
+.aboutAlumni {
   background: #f6eca9;
 }
 
-.about-tour{
+.about-tour {
   background-color: #12486b;
   color: #ffffff;
 }
 
-
-.alumniContent h2{
+.alumniContent h2 {
   color: #12486b;
 }
 
-.tourContent h2{
+.tourContent h2 {
   color: #f6eca9;
 }
 
-.tourContent{
+.tourContent {
   padding: 80px;
   font-family: 'Ubuntu';
 }
 
-
-.alumniContent{
+.alumniContent {
   padding: 80px;
   font-family: 'Ubuntu';
 }
-
 
 /* //////////// contact page ///////////   */
 
-.contactHeadings{
+.contactHeadings {
   text-align: center;
   margin-top: 100px;
   font-family: 'Ubuntu';
   font-weight: bolder;
-  
 }
 
-.contactHeadings h5{
-  color: #FFC436;
+.contactHeadings h5 {
+  color: #ffc436;
 }
 
-
-.contactHeadings h1{
+.contactHeadings h1 {
   font-size: 50px;
 }
 
 .contactRow div {
   text-align: center;
   font-family: 'Ubuntu';
-
 }
 
-
-.contactRow{
+.contactRow {
   margin-top: 70px;
   margin-bottom: 70px;
-  
 }
 
-.contactOne{
+.contactOne {
   background: #12486b;
   border-radius: 5px;
   padding: 40px 0px;
   color: #f6eca9;
-  
-
 }
 
-.contactOne:hover{
+.contactOne:hover {
   background-color: #f6eca9;
   color: #0f0f0f;
 }
 
-.contactThree:hover{
+.contactThree:hover {
   background-color: #f6eca9;
   color: #0f0f0f;
 }
 
-
-
-
-.contactTwo{
+.contactTwo {
   background: #f6eca9;
   padding: 40px 0px;
   border-radius: 5px;
-  
 }
-.contactThree{
+.contactThree {
   background: #12486b;
   padding: 40px 0px;
   border-radius: 5px;
   color: #f6eca9;
 }
 
-
-#inqureForm{
-  background-color:#12486b;
+#inqureForm {
+  background-color: #12486b;
   padding: 50px 0px;
- 
 }
 
-.inqureFromH1{
+.inqureFromH1 {
   text-align: center;
   font-family: 'Ubuntu';
   color: #f6eca9;
@@ -687,95 +632,81 @@ margin-bottom: 150px;
   padding-top: 50px;
 }
 
-.inqureBtn{
+.inqureBtn {
   margin-left: 565px;
 }
 
-
-.inqureBtnDiv{
+.inqureBtnDiv {
   margin-bottom: 50px;
 }
 
-
-.formHeadingbtn{
+.formHeadingbtn {
   text-align: center;
 }
 
-
 /* courses  */
 
-.mechanical{
+.mechanical {
   width: 100%;
 }
 
-
-
-.mechanical img{
+.mechanical img {
   width: 100%;
   box-sizing: border-box;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
 }
 
-
-.mechanicalContent a{
+.mechanicalContent a {
   text-decoration: none;
-  color:#f6eca9;
+  color: #f6eca9;
 }
 
 /* .mechanical{
   margin-top: 50px;
 } */
 
-.mechanicalContent{
+.mechanicalContent {
   background-color: #12486b;
   color: #ffffff;
   padding: 20px 30px;
 }
 
-
-.courseRow{
+.courseRow {
   margin-bottom: 200px;
   margin-top: 100px;
 }
 
-
 /* courseDetails  */
 
-.detailsFlex{
+.detailsFlex {
   display: flex;
 
   /* gap: 20px; */
   justify-content: space-around;
   align-items: center;
- 
+
   /* font-size: 20px; */
- 
 }
 
-
-.coursesDetailsH1{
+.coursesDetailsH1 {
   margin-top: 100px;
   margin-bottom: 50px;
   font-family: 'Ubuntu';
- 
-  
 }
 
-.courseFeatureH3 h3{
-padding-left: 20px;
-text-align: center;
+.courseFeatureH3 h3 {
+  padding-left: 20px;
+  text-align: center;
 }
 /* .coursesDetailsRow{
   margin-top: 100px;
 } */
 
-
-.coursesDetailsRow img{
+.coursesDetailsRow img {
   width: 100%;
 }
 
-.courseFeatureH3{
+.courseFeatureH3 {
   text-align: left;
   background: #12486b;
   color: #f6eca9;
@@ -789,46 +720,41 @@ text-align: center;
   padding: 20px 0px;
   padding-left: 20px;
   font-family: 'Ubuntu';
-  
 }
 
-.coursesDetailsContent{
+.coursesDetailsContent {
   border-radius: 10px;
 
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.enroll{
+.enroll {
   text-align: center;
   padding-left: 0px;
   padding: 20px 0px;
-  
-
 }
-.enroll a{
+.enroll a {
   text-decoration: none;
   padding: 10px 40px;
   border-radius: 5px;
-  
 }
 
-
-.courseDetailsAddmission {
+.courseDetailsAdmission {
   margin-top: 100px;
   margin-bottom: 50px;
 }
 
-.lateralSpan{
+.lateralSpan {
   font-weight: bold;
-  
 }
 
-
-.coursesDetailsRow{
+.coursesDetailsRow {
   margin-bottom: 50px;
 }
 
-table, td, th {  
+table,
+td,
+th {
   border: 1px solid #ddd;
   text-align: left;
 }
@@ -840,191 +766,165 @@ table {
   margin-top: 50px;
 }
 
-th, td {
+th,
+td {
   padding: 15px;
 }
 
-.headBgColor{
+.headBgColor {
   background: #12486b;
   color: #f6eca9;
 }
 
-.getCourseDetailsAnsewer{
-margin-bottom: 100px;
-
-
-
+.getCourseDetailsAnsewer {
+  margin-bottom: 100px;
 }
 
-.addmissionRow{
+.AdmissionRow {
   background: #f6eca9;
   padding: 20px;
 }
 
 /* eventsDetails page //////////////////////////////// */
-.eventFoot{
+.eventFoot {
   margin-top: 80px;
 }
 
-.eventsDetailsImg-Div{
+.eventsDetailsImg-Div {
   width: 100%;
   height: 80%;
 }
-.eventsDetailsImg{
+.eventsDetailsImg {
   /* margin-top: 100px; */
   /* margin-bottom: 100px; */
   width: 100%;
   height: 100%;
   margin-top: 80px;
   margin-bottom: 50px;
-  
 }
 
-.DetailsHeading{
-  color:#ffffff; 
-  padding: 5px; 
+.DetailsHeading {
+  color: #ffffff;
+  padding: 5px;
   margin-bottom: 10px;
-
 }
 
-.eventTime p{
+.eventTime p {
   border-bottom: 1px solid black;
   font-size: 20px;
-
 }
 
-
-.time{
+.time {
   background: #12486b;
   color: #f6eca9;
   padding: 30px 0px;
   text-align: center;
   font-size: 25px;
-
 }
 
+/* gallery ////////////////// */
 
-
-/* gallary ////////////////// */
-
-
-
-.containerMain{
-	max-width: 1170px;
-	margin:auto;
+.containerMain {
+  max-width: 1170px;
+  margin: auto;
 }
 
-
-
-
-.rowOne{
-	display: flex;
-	flex-wrap: wrap;
+.rowOne {
+  display: flex;
+  flex-wrap: wrap;
 }
-.imgGallary{
-	max-width: 100%;
-	vertical-align: middle;
+.imgGallary {
+  max-width: 100%;
+  vertical-align: middle;
 }
 /*.gallery*/
-.gallery{
-	width: 100%;
-	display: block;
-	min-height: 100vh;
-	background-color: #12486b;
-	padding: 100px 0;
+.gallery {
+  width: 100%;
+  display: block;
+  min-height: 100vh;
+  background-color: #12486b;
+  padding: 100px 0;
 }
-.gallery .gallery-filter{
-	padding: 0 15px;
-	width: 100%;
-	text-align: center;
-	margin-bottom: 20px;
+.gallery .gallery-filter {
+  padding: 0 15px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
 }
-.gallery .gallery-filter .filter-item{
-	color: #ffffff;
-	font-size: 15px;
-	text-transform: uppercase;
-	display: inline-block;
-	margin:0 10px;
-	cursor: pointer;
-	border-bottom: 2px solid transparent;
-	line-height: 1.2;
-	transition: all 0.3s ease;
+.gallery .gallery-filter .filter-item {
+  color: #ffffff;
+  font-size: 15px;
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 0 10px;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  line-height: 1.2;
+  transition: all 0.3s ease;
 }
-.gallery .gallery-filter .filter-item.active{
-	color: #f6eca9;
-	border-color : #f6eca9;
+.gallery .gallery-filter .filter-item.active {
+  color: #f6eca9;
+  border-color: #f6eca9;
 }
-.gallery .gallery-item{
-	width: calc(100% / 3);
-	padding: 15px;
+.gallery .gallery-item {
+  width: calc(100% / 3);
+  padding: 15px;
 }
-.gallery .gallery-item-inner img{
-	width: 100%;
+.gallery .gallery-item-inner img {
+  width: 100%;
 }
-.gallery .gallery-item.show{
-	animation: fadeIn 0.5s ease;
+.gallery .gallery-item.show {
+  animation: fadeIn 0.5s ease;
 }
-@keyframes fadeIn{
-	0%{
-		opacity: 0;
-	}
-	100%{
-		opacity: 1;
-	}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
-.gallery .gallery-item.hide{
-	display: none;
+.gallery .gallery-item.hide {
+  display: none;
 }
 
 /*responsive*/
-@media(max-width: 991px){
-	.gallery .gallery-item{
-		width: 50%;
-	}
+@media (max-width: 991px) {
+  .gallery .gallery-item {
+    width: 50%;
+  }
 }
-@media(max-width: 767px){
-    .gallery .gallery-item{
-		width: 100%;
-	}	
-	.gallery .gallery-filter .filter-item{
-		margin-bottom: 10px;
-	}
-
-
-
+@media (max-width: 767px) {
+  .gallery .gallery-item {
+    width: 100%;
+  }
+  .gallery .gallery-filter .filter-item {
+    margin-bottom: 10px;
+  }
 }
-
 
 /* ///////////////// cse department page  */
 
-
-
-#cseHis{
+#cseHis {
   margin-top: 100px;
   background: #f6eca9;
   padding: 20px;
 }
-.cseImg{
+.cseImg {
   /* margin-top: 100px; */
   /* margin-bottom: 100px; */
   /* width: 80%; */
- /* height: 80%; */
-  
-
-  
+  /* height: 80%; */
 }
 
-
 .cseH1Div {
-  margin-top:70px ;
+  margin-top: 70px;
   margin-bottom: 20px;
 }
 
-.cseImg-Div{
+.cseImg-Div {
   width: 100%;
-  
 }
-
 
 .teacherRow .teacher {
   background: #12486b;
@@ -1035,18 +935,18 @@ margin-bottom: 100px;
   color: #ffffff;
 }
 
-.icons{
+.icons {
   color: #f6eca9;
 }
-#ourTeacher{
+#ourTeacher {
   margin-top: 80px;
 }
 
-#ourTeacher h1{
+#ourTeacher h1 {
   font-family: 'Ubuntu';
 }
 
-.hodPhone{
+.hodPhone {
   background: #f6eca9;
   text-align: center;
   padding: 30px 0px;
@@ -1056,15 +956,11 @@ margin-bottom: 100px;
   margin-top: 100px;
 } */
 
-
-
 /* media queries */
 
 /* /mobile */
 
 @media (max-width: 600px) {
-
-
   .welcomBackGroundImage {
     height: 110vh;
     /* padding-bottom: 100vh; */
@@ -1096,8 +992,6 @@ margin-bottom: 100px;
     font-family: 'Ubuntu';
   }
 
-
-
   .discover {
     background-color: #f6eca9;
     padding: 10px 10px;
@@ -1111,251 +1005,229 @@ margin-bottom: 100px;
     font-family: 'Ubuntu';
   }
 
-
   /* /////////////// aboutSetion ///////// */
-  .aboutButton{
+  .aboutButton {
     margin-top: 1rem;
- 
   }
-  .aboutMain-2 h5{
+  .aboutMain-2 h5 {
     margin-top: 3rem;
- 
   }
-  .aboutMain-2 h2{
+  .aboutMain-2 h2 {
     font-size: 1.7rem;
     margin-bottom: 1rem;
     font-family: 'Ubuntu';
     border: none;
   }
 
-
-     /* /// our events ////  */
-  .events h2{
-
+  /* /// our events ////  */
+  .events h2 {
     font-weight: bold;
     font-size: 25px;
     margin-bottom: 3rem;
-
-    
   }
 
-  .zoom{
+  .zoom {
     margin-bottom: 2rem;
   }
 
- 
-
   /* //// get every */
 
-  
-#getEvery{
-  padding-top: 10px;
-  /* background: #f6eca95b; */
-}
+  #getEvery {
+    padding-top: 10px;
+    /* background: #f6eca95b; */
+  }
 
-.getAns{
-  margin-bottom: 50px;
-}
-.getAns h1{
-  font-weight: bold;
-}
-.getContact{
-  margin-bottom: 50px;
-}
-.getContact h1{
-  font-weight: bold;
-}
-  
+  .getAns {
+    margin-bottom: 50px;
+  }
+  .getAns h1 {
+    font-weight: bold;
+  }
+  .getContact {
+    margin-bottom: 50px;
+  }
+  .getContact h1 {
+    font-weight: bold;
+  }
 
-/* testimonials  */
+  /* testimonials  */
 
-.testCard{
-  margin-bottom: 20px;
-}
+  .testCard {
+    margin-bottom: 20px;
+  }
 
+  /* /// alumni  */
 
-/* /// alumni  */
+  .alumniHeadings h5 {
+    text-align: left;
+  }
 
-.alumniHeadings h5{
-  text-align: left;
+  .alumniHeadings h1 {
+    margin-bottom: 20px;
+  }
 
-}
+  /* ///footer */
+  .footerOne,
+  .footerTwo,
+  .footerThree,
+  .footerFour {
+    margin-bottom: 40px;
+  }
 
-.alumniHeadings h1{
-  margin-bottom: 20px;
-}
+  #footer {
+    background: #ffc3366b;
+    padding-top: 30px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+  }
 
-/* ///footer */
-.footerOne,.footerTwo,.footerThree,.footerFour{
-  margin-bottom: 40px;
-}
+  /* about page /////////////////////////////////////////// */
+  #aboutBrand h1 {
+    text-align: center;
+    position: absolute;
+    top: 100px;
+    left: 134px;
+    font-family: 'Ubuntu';
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+  }
 
-#footer{
-  background:#ffc3366b;
-  padding-top: 30px;
-  padding-top: 50px;
-  padding-bottom: 10px;
-}
+  #aboutBrand {
+    background-image: url(img/brand-bg.png);
+    /* height: 60vh; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 220px;
+    position: relative;
+  }
+  .Combineflex {
+    display: flex;
+    width: 165px;
+    justify-content: space-between;
+    background-color: #f6eca9;
+    border-radius: 100px;
+    padding: 10px;
+    font-family: 'Ubuntu';
+    position: relative;
+    top: 200px;
+  }
 
+  .Combineflex .combineHome {
+    border-right: 1px solid black;
+    padding-right: 5px;
+  }
 
-/* about page /////////////////////////////////////////// */
-#aboutBrand h1{
-  text-align: center;
-  position: absolute;
-  top: 100px;
-  left: 134px;
-  font-family: 'Ubuntu';
-  color: #fff;
-  font-size: 25px;
-  font-weight: bold;
-}
+  .Combineflex .combineAbout {
+    padding-left: 5px;
+  }
 
-#aboutBrand{
-  background-image: url(img/brand-bg.png);
-  /* height: 60vh; */
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 220px;
-  position: relative;
-}
-.Combineflex{
-  display: flex;
-  width: 165px;
-  justify-content: space-between;
-  background-color: #f6eca9;
-  border-radius: 100px;
-  padding: 10px;
-font-family: 'Ubuntu';
-  position: relative;
-  top: 200px;
-}
+  #video {
+    margin-top: 50px;
+  }
 
-.Combineflex .combineHome{
-  border-right: 1px solid black;
-  padding-right: 5px;
-}
+  .tourContent h2 {
+    font-size: 30px;
 
+    font-weight: bold;
+  }
 
-.Combineflex .combineAbout{
-  padding-left: 5px;
+  .tourContent p {
+    margin-bottom: 40px;
+  }
+  .tourContent {
+    padding: 10px;
+    font-family: 'Ubuntu';
+  }
 
-}
+  .iframee {
+    padding-bottom: 40px;
+  }
 
-#video{
-  margin-top: 50px;
-}
+  .aboutAlumni img {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
 
-.tourContent h2{
-  font-size: 30px;
-  
-  font-weight: bold;
-}
+  .alumniContent {
+    padding: 10px;
+    font-family: 'Ubuntu';
+    padding-bottom: 40px;
+  }
+  .getEveryAbout {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
 
-.tourContent p{
-  margin-bottom: 40px;
-}
-.tourContent{
-  padding: 10px;
-  font-family: 'Ubuntu';
-}
+  /* contact page  */
 
-.iframee{
-  padding-bottom: 40px;
-}
+  .contactTwo,
+  .contactOne {
+    margin-bottom: 20px;
+  }
 
-.aboutAlumni img{
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
+  .inqureBtn {
+    margin-left: 25%;
+  }
 
-.alumniContent{
-  padding: 10px;
-  font-family: 'Ubuntu';
-  padding-bottom: 40px;
-}
-.getEveryAbout{
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
+  /* coursepagw */
 
+  .courseRow {
+    margin-bottom: 200px;
+    margin-top: 44px;
+  }
 
+  /* courseDetails page  */
 
-/* contact page  */
+  .coursesDetailsContent {
+    margin-top: 30px;
+  }
 
- .contactTwo,.contactOne{
-  margin-bottom: 20px;
-}
+  .lateralMain {
+    text-align: left;
+  }
 
-.inqureBtn{
-  margin-left:25%;
-}
+  .coursesDetailsRow {
+    margin-bottom: 50px;
+  }
 
+  .detailsFlex {
+    display: flex;
 
-/* coursepagw */
+    gap: 20px;
+    justify-content: space-around;
+    font-size: 16px;
+  }
 
-.courseRow{
-  margin-bottom: 200px;
-  margin-top: 44px;
-}
+  /* //////cse */
 
+  .cseHish1 {
+    font-size: 20px;
+  }
 
-/* courseDetails page  */
+  .mainP {
+    font-size: 14px;
+  }
 
-.coursesDetailsContent{
-  margin-top: 30px;
-}
+  .secondP {
+    font-size: small;
+  }
+  .cseImg {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
 
-.lateralMain{
-  text-align: left;
-}
+  .teacher {
+    margin-bottom: 10px;
+  }
 
-.coursesDetailsRow{
-  margin-bottom: 50px;
-}
-
-
-.detailsFlex{
-  display: flex;
-
-  gap: 20px;
-  justify-content: space-around;
-  font-size: 16px;
- 
-}
-
-/* //////cse */
-
-
-.cseHish1{
-font-size: 20px;
-  
-}
-
-.mainP{
-  font-size: 14px;
-}
-
-.secondP{
-  font-size: small;
-}
-.cseImg{
-  margin-top:10px ;
-  margin-bottom: 20px;
- 
-}
-
-.teacher{
-  margin-bottom: 10px;
-}
-
-.hodPhone{
-  margin-bottom: 20px;
-}
+  .hodPhone {
+    margin-bottom: 20px;
+  }
 }
 
 /* tab */
 @media (max-width: 991px) and (min-width: 601px) {
-
   .welcomBackGroundImage {
     padding-bottom: 30%;
   }
@@ -1374,60 +1246,60 @@ font-size: 20px;
   }
 
   /* /////////////// aboutSetion ///////// */
-  .aboutButton{
+  .aboutButton {
     margin-top: 1rem;
   }
-  .aboutMain-2 h5{
-    color: #FFC436;
+  .aboutMain-2 h5 {
+    color: #ffc436;
     margin-top: 3rem;
- 
   }
-  .aboutMain-2 h2{
+  .aboutMain-2 h2 {
     font-size: 1.8rem;
     margin-bottom: 1rem;
     font-family: 'Ubuntu';
   }
 
   /* ///// our events  ///  */
-  .zoom{
+  .zoom {
     margin-bottom: 2rem;
   }
-  
- /* //// get every */
 
-  
- #getEvery{
-  padding-top: 10px;
-  /* background: #f6eca95b; */
-}
+  /* //// get every */
 
-.getAns{
-  margin-bottom: 50px;
-}
-.getAns h1{
-  font-weight: bold;
-}
-.getContact{
-  margin-bottom: 50px;
-}
-.getContact h1{
-  font-weight: bold;
-}
-/* ////testimonials */
-.testCard{
-  margin-bottom: 10px;
-}
+  #getEvery {
+    padding-top: 10px;
+    /* background: #f6eca95b; */
+  }
 
-/* ///alumni */
+  .getAns {
+    margin-bottom: 50px;
+  }
+  .getAns h1 {
+    font-weight: bold;
+  }
+  .getContact {
+    margin-bottom: 50px;
+  }
+  .getContact h1 {
+    font-weight: bold;
+  }
+  /* ////testimonials */
+  .testCard {
+    margin-bottom: 10px;
+  }
 
-.footerOne,.footerTwo,.footerThree,.footerFour{
-  margin-bottom: 30px;
-}
+  /* ///alumni */
 
+  .footerOne,
+  .footerTwo,
+  .footerThree,
+  .footerFour {
+    margin-bottom: 30px;
+  }
 
   /* //////////////// about page /// */
 
-  #aboutBrand h1{
+  #aboutBrand h1 {
     text-align: center;
     position: absolute;
     top: 200px;
@@ -1437,93 +1309,84 @@ font-size: 20px;
     font-size: 45px;
     font-weight: bold;
   }
-#aboutBrand{
-  background-image: url(img/brand-bg.png);
-  /* height: 60vh; */
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 440px;
-  position: relative;
-}
+  #aboutBrand {
+    background-image: url(img/brand-bg.png);
+    /* height: 60vh; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 440px;
+    position: relative;
+  }
 
-.Combineflex{
-  display: flex;
-  width: 165px;
-  justify-content: space-between;
-  background-color: #f6eca9;
-  border-radius: 100px;
-  padding: 10px;
+  .Combineflex {
+    display: flex;
+    width: 165px;
+    justify-content: space-between;
+    background-color: #f6eca9;
+    border-radius: 100px;
+    padding: 10px;
 
-  position: relative;
-  top: 420px;
-}
+    position: relative;
+    top: 420px;
+  }
 
-.Combineflex .combineHome{
-  border-right: 1px solid black;
-  padding-right: 5px;
-}
+  .Combineflex .combineHome {
+    border-right: 1px solid black;
+    padding-right: 5px;
+  }
 
+  .Combineflex .combineAbout {
+    padding-left: 5px;
+  }
 
-.Combineflex .combineAbout{
-  padding-left: 5px;
-}
+  .tourContent {
+    padding: 10px;
+    font-family: 'Ubuntu';
+  }
 
-.tourContent{
-  padding: 10px;
-  font-family: 'Ubuntu';
-}
+  .alumniContent {
+    padding: 10px;
+    font-family: 'Ubuntu';
+  }
 
+  /* contact page  */
 
-.alumniContent{
-  padding: 10px;
-  font-family: 'Ubuntu';
-}
+  .contactThree {
+    margin-top: 15px;
+  }
 
+  .inqureBtn {
+    margin-left: 280px;
+  }
 
-/* contact page  */
+  /* courseDetails page  */
 
-.contactThree{
-  margin-top: 15px;
-}
+  .coursesDetailsContent {
+    margin-top: 30px;
+  }
 
+  .detailsFlex {
+    display: flex;
 
-.inqureBtn{
-  margin-left:280px;
-}
+    gap: 20px;
+    justify-content: space-evenly;
+    /* font-size: 20px; */
+  }
 
+  /* cse page  */
 
-/* courseDetails page  */
+  .teacher {
+    margin-bottom: 10px;
+  }
 
-.coursesDetailsContent{
-  margin-top: 30px;
-}
+  .hodPhone {
+    margin-bottom: 20px;
+  }
 
-.detailsFlex{
-  display: flex;
-
-  gap: 20px;
-  justify-content: space-evenly;
-  /* font-size: 20px; */
- 
-}
-
-/* cse page  */
-
-.teacher{
-  margin-bottom: 10px;
-}
-
-.hodPhone{
-  margin-bottom: 20px;
-}
-
-.cseImg{
-  margin-top:10px ;
-  margin-bottom: 20px;
- 
-}
-
-
+  .cseImg {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
 }
 
 /* tab 2.0 */
@@ -1533,77 +1396,67 @@ font-size: 20px;
   }
 }
 
-
-
 @media (max-width: 1199px) and (min-width: 991px) {
-
-  .aboutMain-2 h2{
+  .aboutMain-2 h2 {
     font-size: 1.5rem;
     font-family: 'Ubuntu';
   }
-  
 
   /* //////////////// about page /// */
-  #aboutBrand{
-  background-image: url(img/brand-bg.png);
-  /* height: 60vh; */
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 250px;
-  position: relative;
-}
+  #aboutBrand {
+    background-image: url(img/brand-bg.png);
+    /* height: 60vh; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 250px;
+    position: relative;
+  }
 
-#aboutBrand h1{
-  text-align: center;
-  position: absolute;
-  top: 100px;
-  left: 440px;
-  font-family: 'Ubuntu';
-  color: #fff;
-  font-size: 40px;
-  font-weight: bold;
-}
+  #aboutBrand h1 {
+    text-align: center;
+    position: absolute;
+    top: 100px;
+    left: 440px;
+    font-family: 'Ubuntu';
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+  }
 
-.Combineflex{
-  display: flex;
-  width: 165px;
-  justify-content: space-between;
-  background-color: #f6eca9;
-  border-radius: 100px;
-  padding: 10px;
+  .Combineflex {
+    display: flex;
+    width: 165px;
+    justify-content: space-between;
+    background-color: #f6eca9;
+    border-radius: 100px;
+    padding: 10px;
 
-  position: relative;
-  top: 230px;
-}
+    position: relative;
+    top: 230px;
+  }
 
-.Combineflex .combineHome{
-  border-right: 1px solid black;
-  padding-right: 5px;
-}
+  .Combineflex .combineHome {
+    border-right: 1px solid black;
+    padding-right: 5px;
+  }
 
+  .Combineflex .combineAbout {
+    padding-left: 5px;
+  }
 
-.Combineflex .combineAbout{
-  padding-left: 5px;
-}
+  .tourContent {
+    padding: 50px;
+    font-family: 'Ubuntu';
+  }
 
-.tourContent{
-  padding: 50px;
-  font-family: 'Ubuntu';
-}
+  .alumniContent {
+    padding: 40px;
+    font-family: 'Ubuntu';
+  }
 
+  /* contact page  */
 
-.alumniContent{
-  padding: 40px;
-  font-family: 'Ubuntu';
-}
-
-
-
-/* contact page  */
-
-.inqureBtn{
-  margin-left:400px;
-}
-
-
+  .inqureBtn {
+    margin-left: 400px;
+  }
 }
